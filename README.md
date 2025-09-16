@@ -1,3 +1,14 @@
+# Pokémon App Web
+
+Una aplicación web desarrollada con React para explorar y conocer información sobre Pokémon.
+
+## 🚀 Características
+
+- Lista de Pokémon con paginación
+- Modal con detalles completos de cada Pokémon
+- Interfaz intuitiva y fácil de uso
+- Consume la PokeAPI para datos en tiempo real
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +79,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/app-web-pokemon.git
+cd app-web-pokemon
