@@ -83,5 +83,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/app-web-pokemon.git
-cd app-web-pokemon
+git clone https://github.com/Luhcas28/PokemonAppWeb.git
+cd app-web
