@@ -1,0 +1,148 @@
+.pokemon-species-list {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.species-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.species-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.species-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.species-card h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.species-card img {
+    width: 96px;
+    height: 96px;
+    margin: 10px 0;
+}
+
+.species-card p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.species-name {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #2c5aa0 !important;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.pagination-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #2c5aa0;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background: #1e3d72;
+}
+
+.pagination-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination-info {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.page-numbers {
+    font-weight: bold;
+    color: #333;
+    padding: 0 15px;
+}
+
+.page-jump {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.page-jump input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    width: 150px;
+}
+
+.page-jump input:focus {
+    outline: none;
+    border-color: #2c5aa0;
+    box-shadow: 0 0 5px rgba(44, 90, 160, 0.3);
+}
+
+.loading, .error {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.loading {
+    color: #2c5aa0;
+}
+
+.error {
+    color: #dc3545;
+}
+
+.species-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.species-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .species-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .pagination-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
